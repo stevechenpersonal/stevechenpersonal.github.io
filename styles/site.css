@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(244, 244, 244);
+}
+
+#nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+#nav ul li :hover {
+  color: blue;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#link-outer-box {
+  display: flex;
+  align-items: center;
+}
+
+#link-outer-box .link {
+  border: 1px solid lightcoral;
+  padding: 3px;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid lightslategray;
+  padding-right: 1%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact li {
+  margin-right: 10px;
+}
+
+#top-card {
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+}
+
+#bottom-card {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+}
+
+#profile-pic img {
+  width: 150px;
+  height: 150px;
+  object-fit: scale-down;
+  border-radius: 100%;
+}
+
+#profile-pic-about-me {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-me {
+  width: 100%;
+  margin: auto;
+  padding-left: 10px;
+}
+
+#main-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  color: blue;
+}
+
+#work-experiences .job-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#work-experiences .time-frame {
+  padding-left: 10px;
+}
+
+#work-experiences .job-detail {
+  padding-left: 10px;
+}
+
+#work-experiences {
+  padding-left: 5px;
+  /* border-bottom: 1px solid rgb(103, 94, 94); */
+  margin-bottom: 40px;
+}
